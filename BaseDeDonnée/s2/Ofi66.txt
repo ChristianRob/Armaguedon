@@ -1,0 +1,51 @@
+ofis66 [ 55 | 6 ] 
+
+Castle 02 [ 56 | 6 ] 
+
+Castle 03 [ 55 | 7 ] 
+
+Castle 04 [ 54 | 7 ] 
+
+Castle 05 [ 56 | 7 ] 
+
+Castle 06 [ 55 | 5 ] 
+
+Castle 07 [ 54 | 5 ] 
+
+Castle 08 [ 56 | 5 ] 
+
+Castle 09 [ 54 | 4 ] 
+
+Castle 10 [ 55 | 4 ] 
+
+Castle 11 [ 56 | 4 ] 
+
+Castle 12 [ 53 | 5 ] 
+
+Castle 13 [ 53 | 7 ] 
+
+Castle 14843 [ 53 | 3 ] 
+
+Castle 14844 [ 56 | 3 ] 
+
+Castle 14845 [ 55 | 3 ] 
+
+Castle 14846 [ 54 | 3 ] 
+
+Castle 15011 [ 57 | 3 ] 
+
+Castle 15012 [ 57 | 4 ] 
+
+Castle 15064 [ 57 | 5 ] 
+
+Castle 15672 [ 57 | -6 ] 
+
+Castle 15673 [ 62 | -5 ] 
+
+Castle 15679 [ 37 | 7 ] 
+
+Castle 15623 [ 36 | 1 ] 
+
+ECL [ -25 | 36 ] 
+
+Castle sabo1 [ -45 | -41 ] 

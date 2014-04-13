@@ -1,0 +1,45 @@
+azert0 [ 8 | 7 ] 
+
+azert10 [ 6 | 8 ] 
+
+azert20 [ 8 | 9 ] 
+
+azert30 [ 7 | 9 ] 
+
+azert40 [ -7 | 6 ] 
+
+azert50 [ -6 | 7 ] 
+
+azert60 [ -8 | 7 ] 
+
+azert70 [ -7 | 8 ] 
+
+azert80 [ -6 | 6 ] 
+
+azert90 [ -6 | 8 ] 
+
+azert100 [ -8 | 8 ] 
+
+azert200 [ -8 | 6 ] 
+
+azert300 [ -2 | 7 ] 
+
+azert400 [ -3 | 7 ] 
+
+azert500 [ -4 | 7 ] 
+
+azert600 [ -5 | 7 ] 
+
+azert700 [ 0 | 7 ] 
+
+azert800 [ -1 | 7 ] 
+
+azert900 [ 3 | 7 ] 
+
+azert1000 [ 1 | 7 ] 
+
+azert2000 [ 2 | 7 ] 
+
+azert3000 [ 4 | 8 ] 
+
+azert40000 [ 5 | 8 ] 

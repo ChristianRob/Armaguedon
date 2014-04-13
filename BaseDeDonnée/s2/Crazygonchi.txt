@@ -1,0 +1,17 @@
+rick [ -3 | 18 ] 
+
+t-dog [ 52 | 36 ] 
+
+carl [ -2 | 19 ] 
+
+michonne [ -2 | 17 ] 
+
+andrea [ -3 | 19 ] 
+
+shane [ -4 | 16 ] 
+
+hersall [ -57 | -32 ] 
+
+beth [ -59 | -31 ] 
+
+carol [ -21 | 36 ] 

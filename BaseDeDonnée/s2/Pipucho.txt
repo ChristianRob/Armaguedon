@@ -1,0 +1,53 @@
+Gondor.0 [ 60 | -4 ] 
+
+Cair Andros.1 [ 60 | -3 ] 
+
+Calembel.2 [ 61 | -4 ] 
+
+Dol Amroth.3 [ 59 | -4 ] 
+
+Ethiring.4 [ 60 | -5 ] 
+
+Castle 01 [ 54 | 6 ] 
+
+cl2 [ -59 | -32 ] 
+
+Mouros Castle [ 48 | -60 ] 
+
+cl4 [ -58 | -31 ] 
+
+Arsuf [ -36 | -56 ] 
+
+Sidon [ -35 | -56 ] 
+
+Kerak [ -35 | -57 ] 
+
+cl6 [ -57 | -31 ] 
+
+Tyre [ -36 | -57 ] 
+
+Linhir.5 [ 61 | -3 ] 
+
+Minas Tirith.6 [ 59 | -3 ] 
+
+Osgiliath.7 [ 61 | -5 ] 
+
+Pelargir.8 [ 60 | -7 ] 
+
+PIPUCHO. [ -47 | 28 ] 
+
+Angrenost.9 [ 59 | -5 ] 
+
+Minas Ithil.10 [ 60 | -6 ] 
+
+Tharbad.11 [ 61 | -6 ] 
+
+Umbar.12 [ 59 | -6 ] 
+
+Amon Hen.13 [ 58 | -4 ] 
+
+Amon Lhaw.14 [ 58 | -5 ] 
+
+Ered Nimrais.15 [ 58 | -3 ] 
+
+Khazad-dûm.16 [ 58 | -6 ] 
