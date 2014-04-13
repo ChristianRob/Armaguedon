@@ -1,0 +1,131 @@
+Programme Armaguedon Version 0.5 (Beta)
+
+(c) Copyright Pécan Inc 2014
+
+
+I- Introduction.
+
+Ce programme permet de calculer le moment de départ des nos armées, saboteurs et sièges de plusieurs endroits
+et joueurs différents pour que l'attaque soit synchronisée à la minute près lors de l'arrivé des troupes. Le 
+programme prend essentiellement comme argument le temps dans laquelle l'attaque va être porter et les coordonnés
+en X et Y de la cible. Le programme utilise un fichier d'initilisation qui est propre à chacun des utilisateurs. 
+
+II- Installation
+
+A) Pré-requis à l'installation du programme Armaguedon.
+
+Le programme Armageddon a besoin de DLL suppélmentaire pour fonctionner. À la première installation d'une version,
+il faut aller sur le site:
+	//www.microsoft.com/fr-ca/download/details.aspx?id=30679
+
+Cliquez sur "Télécharger", cocher ensuite "VSU4\vcredist_x86.exe" et cliquez sur le bouton "suivant". Suivez les
+instruction pour installer le module (Il faut exécuter "vcredist_x86.exe"). Il est possible qu'il faut redémarer
+l'ordinateur après avoir terminer l'installation.
+
+B) Installation du programme Armageddon
+
+Dans un premier temps, déplacer ou copier le fichier *.zip dans un répertoire. On peut créer le répertoire s'il y
+a lieu auparavant. Il faut ensuite décompresser le fichier *.zip dans ce répertoire. Le fichier "Arma.ini" doit
+être personnalisé. C'est à dire qu'il faut compléter les champs de ce fichier (Voir  la section IV). Note: Le
+fichier "arma.ini" d'une version peut-être réutilisée mais il faut s'assurer que les champs internes sont bel et
+bien identique. Les nouveaux champs doivent-être remplis et il y a de forte chance que la clé de sécurité soit à
+modifier.
+
+C) Accès la fenêtre de lancement du programme Armaguedon.
+
+Le programme Armaguedon est un programme console Windows. Un double clic sur l'icone du programme ne donnera rien
+(Sauf potentiellement, l'apparition d'un écran vide). Pour lancer le programme Armaguedon, il faut l'éxécuter à
+partir d'une fenêtre d'"invite de commandes". L'accès à cette fenêtre est différente selon notre système
+d'exploitation:
+	= Système antérieur à Windows 8
+		i. Cliquer l'option "Tous les programmes" dans le bouton "Démarrer" (En bas à gauche)
+		ii. Dans le nouveau menu déroulant, cliquer sur le menu "Accessoires"
+		iii. Enfin, cliquer sur le menu "Invite de commandes", une fenêtre noir apparaitra.
+
+	= Système Windows 8 et plus
+		i. Cliquer sur l'icone "Bureau"
+		ii. Faire un clic droit sur l'icone "Windows", en bas à gauche.
+		iii. Cliquer sur le menu "Invite de commandes", une fenêtre noir apparaitra.
+
+D) Préparation du lancement du programme
+
+Pour lancer le programme Armaguedon dans la fenêtre de L'"invite de commandes", il faut se déplacer dans le 
+répertoire où est situé le programme. La commande cd ("Change directory") permet de changer ce répertoire. Pour 
+remonter l'arborescence, faire cd.. (Autant de fois que nécessaire pour remonter à la racine, c'est à dire jusqu'au
+prompt C:\> 
+Par la suite, tapez le chemin des répertoires pour ce placer dans le même répertoire que l'exécutable. Cela se fait
+toujours avec la commande "cd" suivi du nom de ou des répertoires (Séparé par des \). À noter qu'il faut entourer 
+avec des "" si le nom d'un répertoire contient un espace. à la fin de ses manipulation la commande "dir" devra
+donner la liste des fichiers décompressés précédamment.
+
+ E) Raccourci pour l'invite de commande.
+
+ Les étapes C) et D) peuvent devenir pénible à exécuter à chaque utilisation ou scéance d'utilisation. On peut
+ créer un racourci de l'"invite de commande". On prendra soin de mettre l'option du répertoire d'ouverture dans
+ les menus du racourci (Clic droit sur l'icone)
+
+ F) Joueur présent sur plusieurs serveurs
+
+ Le programme Armaguedon est valable pour l'ensemble des serveurs. Le joueur présent sur plus d'un serveur doit 
+ se créer plusieurs répertoires, un pour chaque serveur auquel il joue et y installer l'ensemble des fichiers. Le
+ fichier "Arma.ini" doit être ajuster pour chacun des serveurs.
+
+III- Lancement du programme
+
+le programme Armaguedon est lancé dans une fenêtre "invite de commande" en tapant le nom du programme suivi de la 
+liste de ses arguments. Il faut mentionné le chemin du programme ou de se déplacer dans le répertoire  qui contient 
+le programme. La ligne de commande se présente comme suit:
+
+Armaguedon [-M Fichier_de_modification] Heure_de_l_attaque CibleX CibleY [Heure_de_l_attaque_1 CibleX_1 CibleY_1] [...]
+
+Où:
+
+[] indique des arguments optionnels.
+Heure_de_l_attaque : Heure désiré de l'attaque.
+CibleX : Coordonnée de la cible en X.
+CibleY : Coordonnée de la cible en X.
+[Heure_de_l_attaque_N CibleX_N CibleY_N] : Triplet {heure désiré, cible en X, cible en Y} pour N autres cibles...
+
+-M: Signifie que l'argument qui suit est votre nom de joueur. Votre profil sera mis à jour dans la base de données.
+Fichier_de_modification: Nom d'un fichier texte (*.txt) qui contient les noms de vos chateaux et leurs coordonnées.
+						 Il est spécifié sans extension. La mise à jour manuelle de la base de donnée du programme
+						 est nécessaire que si vos châteaux ont changé de localisation, l'apparition de nouveaux ou
+						 la disparition de d'autres. Cette option permet de faire une correction en attendant la 
+						 livraison d'une mise à jour du programme. Pour obtenir ce fichier, il suffit de faire un 
+						 "copie/coller" de votre liste de château et de les écrire dans un fichier. Le nom du 
+						 fichier est obligatoirement votre nom de joueur (en respectant les majuscules s'il y a 
+						 lieu) suivi de l'extension ".txt"
+
+Note: Ce programme ne peut pas être lancé en double cliquant son icône car il ne s'agit pas d'un programme Windows
+	  proprement dit. En exécutant, le programme Armaguedon de cette manière, vous obtiendrez au mieux une fenêtre
+	  qui s'affiche brièvement sans aucun résultat ou, dans le pire des cas, un message système que cette applica-
+	  tion est incompatible avec votre système d'exploitation (Comme par exemple sous Windows 8.1)
+
+IV- Fichier d'initialisation
+
+Ce fichier doit être placé dans le même répertoire que le programme. Il est nommé "Arma.ini" et il contient les
+informations (lignes) suivantes:
+	Monde=
+	Ordre=
+	Joueur=
+	UTC=
+	Clé=  
+
+Où les champs signifient:
+	Monde:  est le nom du serveur. Cela correspond aux premières du site internet du serveur.
+ 	Ordre:  est les initiales de l'ordre en majucules
+	Joueur: est le nom du joueur en respectant les majuscules et caractères spéciaux mais en ommetant tous les
+			blancs avant ou après le nom. S'il y a des caractères Unicode, ces derniers sont remplacés par des
+			points d'interrogation.
+	UTC:    est le décalage par rapport au temps universel
+	Clé:    est le code de sécurité (6 symboles). Ce champ doit-être mis à jour tous les mois.
+
+V- Mise à jour rapide de vos chateaux.
+
+L'option -M du programme permet de mettre à joueur la base de donnée interne du programme. L'option est suivi
+d'un fichier texte dont le nom est "Nom_Du_Joueur.txt". Nom_Du_Joueur est la chaîne de caractère réprésentant
+le nom du joueur avec tous ces caractères spécaux sauf les blancs en début et à la fin du nom qui sont exclu. 
+S'il y a des caractères Unicode, ces derniers sont remplacés par des points d'interrogation.
+
+
+
