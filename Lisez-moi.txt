@@ -1,4 +1,4 @@
-Programme Armaguedon Version 0.5 (Beta)
+Programme Armaguedon Version 0.7 (Beta)
 
 (c) Copyright Pécan Inc 2014
 
@@ -16,22 +16,57 @@ A) Pré-requis à l'installation du programme Armaguedon.
 
 Le programme Armageddon a besoin de DLL suppélmentaire pour fonctionner. À la première installation d'une version,
 il faut aller sur le site:
-	//www.microsoft.com/fr-ca/download/details.aspx?id=30679
+	www.microsoft.com/fr-ca/download/details.aspx?id=30679
 
 Cliquez sur "Télécharger", cocher ensuite "VSU4\vcredist_x86.exe" et cliquez sur le bouton "suivant". Suivez les
 instruction pour installer le module (Il faut exécuter "vcredist_x86.exe"). Il est possible qu'il faut redémarer
 l'ordinateur après avoir terminer l'installation.
 
-B) Installation du programme Armageddon
+Le programme et sa base de données sont gardés sur un serveur public GIT. Il vous faut un logiciel pour accéder
+à ce serveur. Le programme TortoiseGit permet de faire simplement ce travail. On peut downloader le logiciel à 
+partir du site:
+	http://code.google.com/p/tortoisegit/
 
-Dans un premier temps, déplacer ou copier le fichier *.zip dans un répertoire. On peut créer le répertoire s'il y
-a lieu auparavant. Il faut ensuite décompresser le fichier *.zip dans ce répertoire. Le fichier "Arma.ini" doit
-être personnalisé. C'est à dire qu'il faut compléter les champs de ce fichier (Voir  la section IV). Note: Le
-fichier "arma.ini" d'une version peut-être réutilisée mais il faut s'assurer que les champs internes sont bel et
-bien identique. Les nouveaux champs doivent-être remplis et il y a de forte chance que la clé de sécurité soit à
-modifier.
+Accédez à la page downoload de la dernière version du logiciel. L'application vient en deux déclinaisons 32 bits
+et 64 bits. Ces deux versions sont équivalentes du point de vue des fonctionnalités. Choisissez de préférence, la
+même déclinaison que votre système d'exploitation. N'oubliez pas qu'il y aura un deuxième download sur cette même
+page pour le module linguistique qui permet l'utilisation de TortoiseGIT dans la langue de votre choix. Il est
+fort probable que le système demandera un redémarrage de votre ordinateur puisque le logiciel TortoiseGIT fourni,
+entre autre, une justine ("adds-ins") à l'explorateur de Windows.
 
-C) Accès la fenêtre de lancement du programme Armaguedon.
+B) Installation du programme Armaguedon
+
+Choisissez par l'intermédiaire de l'explorateur de Windons, un répertoire où vous désirez installer le programme 
+Armaguedon. Faites un clic droit sur ce répertoire et choisissez le menu contextuel "GIT cloner...". Une fenêtre
+apparaîtra avec une demande d'un URL, veuillez taper les informations suivantes:
+	https://github.com/ChristianRob/Armaguedon.git	
+
+Puis, cliquez le bouton "OK". Le programme devra downloader les fichiers et répertoires suivants:
+	- Lisez-moi.txt qui contient les principales instructions pour le fonctionnement de ce programme:
+	- Armaguedon.exe qui est l'exécutable de la dernière version du programme
+	- Arma.zip qui est un fichier compressé du fichier Arma.ini vide
+	- Un ensemble de sous-répertoire correspondant à la base de donnée du programme Armaguedon. Note: Il y a 
+	  de répertoire que de serveurs où le programme est fonctionnel. Le nom des répertoires correspond au nom
+	  du serveur.
+
+C) Première utilisation du programe Armaguedon
+
+Le programme Armaguedon utilise un fichier d'initialisation lors de son lancement. Il faut que ce fichier soit 
+convenablement remplis pour que le programme s'exécute correctement. Un fichier vierge est contenu dans le
+fichier compressé "Arma.zip". Veuillez décompresser ce fichier dans ce même répertoire. Nous nous retrouvons 
+alors avec un fichier vierge "Arma.ini". Veuillez alors compléter les champs de ce fichier selon les indications
+de la section IV).
+
+Le fichier "arma.ini" décrit le contexte d'utilisation du programme Armaguedon. Il devrait demeurer identique 
+d'une version à l'autre à l'exception de la clé de sécurité qui est techniquement à renouveller à chaque mois.
+Pour des raisons de sécurité, cette clé doit être demander via un email particulier au chef de l'ordre.
+
+Note: Quelques joueurs sont présents sur plusieurs serveurs. Dans ce cas, il faut changer la configuration du
+	  fichiers "Arma.ini" à chaque fois que l'on utilise le programme Armaguedon sur un serveur de jeux
+	  différents. Il faut se rappeler que le programme Armaguedon est valable pour l'ensemble des serveurs 
+	  mais que son bon fonctionnement est tributaire d'une initialisation correcte. 
+
+D) Accès la fenêtre de lancement du programme Armaguedon.
 
 Le programme Armaguedon est un programme console Windows. Un double clic sur l'icone du programme ne donnera rien
 (Sauf potentiellement, l'apparition d'un écran vide). Pour lancer le programme Armaguedon, il faut l'éxécuter à
@@ -47,28 +82,22 @@ d'exploitation:
 		ii. Faire un clic droit sur l'icone "Windows", en bas à gauche.
 		iii. Cliquer sur le menu "Invite de commandes", une fenêtre noir apparaitra.
 
-D) Préparation du lancement du programme
+E) Préparation du lancement du programme
 
 Pour lancer le programme Armaguedon dans la fenêtre de L'"invite de commandes", il faut se déplacer dans le 
 répertoire où est situé le programme. La commande cd ("Change directory") permet de changer ce répertoire. Pour 
 remonter l'arborescence, faire cd.. (Autant de fois que nécessaire pour remonter à la racine, c'est à dire jusqu'au
 prompt C:\> 
-Par la suite, tapez le chemin des répertoires pour ce placer dans le même répertoire que l'exécutable. Cela se fait
+Par la suite, tapez le chemin des répertoires pour se placer dans le même répertoire que l'exécutable. Cela se fait
 toujours avec la commande "cd" suivi du nom de ou des répertoires (Séparé par des \). À noter qu'il faut entourer 
-avec des "" si le nom d'un répertoire contient un espace. à la fin de ses manipulation la commande "dir" devra
-donner la liste des fichiers décompressés précédamment.
+avec des "" si le nom d'un répertoire contient un espace. À la fin de ses manipulations, la commande "dir" devra
+donner la liste des fichiers du répertoire.
 
- E) Raccourci pour l'invite de commande.
+ F) Raccourci pour l'invite de commande.
 
- Les étapes C) et D) peuvent devenir pénible à exécuter à chaque utilisation ou scéance d'utilisation. On peut
+ Les étapes D) et E) peuvent devenir pénible à exécuter à chaque utilisation ou scéance d'utilisation. On peut
  créer un racourci de l'"invite de commande". On prendra soin de mettre l'option du répertoire d'ouverture dans
  les menus du racourci (Clic droit sur l'icone)
-
- F) Joueur présent sur plusieurs serveurs
-
- Le programme Armaguedon est valable pour l'ensemble des serveurs. Le joueur présent sur plus d'un serveur doit 
- se créer plusieurs répertoires, un pour chaque serveur auquel il joue et y installer l'ensemble des fichiers. Le
- fichier "Arma.ini" doit être ajuster pour chacun des serveurs.
 
 III- Lancement du programme
 
@@ -76,7 +105,7 @@ le programme Armaguedon est lancé dans une fenêtre "invite de commande" en tapan
 liste de ses arguments. Il faut mentionné le chemin du programme ou de se déplacer dans le répertoire  qui contient 
 le programme. La ligne de commande se présente comme suit:
 
-Armaguedon [-M Fichier_de_modification] Heure_de_l_attaque CibleX CibleY [Heure_de_l_attaque_1 CibleX_1 CibleY_1] [...]
+Armaguedon [-M Fichier_de_modification] [-s] Heure_de_l_attaque CibleX CibleY [Heure_de_l_attaque_1 CibleX_1 CibleY_1] [...]
 
 Où:
 
@@ -86,15 +115,15 @@ CibleX : Coordonnée de la cible en X.
 CibleY : Coordonnée de la cible en X.
 [Heure_de_l_attaque_N CibleX_N CibleY_N] : Triplet {heure désiré, cible en X, cible en Y} pour N autres cibles...
 
--M: Signifie que l'argument qui suit est votre nom de joueur. Votre profil sera mis à jour dans la base de données.
-Fichier_de_modification: Nom d'un fichier texte (*.txt) qui contient les noms de vos chateaux et leurs coordonnées.
-						 Il est spécifié sans extension. La mise à jour manuelle de la base de donnée du programme
-						 est nécessaire que si vos châteaux ont changé de localisation, l'apparition de nouveaux ou
-						 la disparition de d'autres. Cette option permet de faire une correction en attendant la 
-						 livraison d'une mise à jour du programme. Pour obtenir ce fichier, il suffit de faire un 
-						 "copie/coller" de votre liste de château et de les écrire dans un fichier. Le nom du 
-						 fichier est obligatoirement votre nom de joueur (en respectant les majuscules s'il y a 
-						 lieu) suivi de l'extension ".txt"
+-M:      Signifie que l'argument qui suit est votre nom de joueur. Votre profil sera mis à jour dans la base de
+         données. L'argument "Fichier_de_modification" est le nom d'un fichier texte (*.txt) qui contient les noms
+		 de vos chateaux et leurs coordonnées. Il est spécifié sans extension. La mise à jour manuelle de la base de
+		 donnée du programme est nécessaire que si vos châteaux ont changé de localisation, l'apparition de nouveaux
+		 ou la disparition de d'autres. Cette option permet de faire une correction en attendant la livraison d'une
+		 mise à jour du programme. Pour obtenir ce fichier, il suffit de faire un "copie/coller" de votre liste de
+		 château et de les écrire dans un fichier. Le nom du fichier est obligatoirement votre nom de joueur (en
+		 respectant les majuscules s'il y a lieu) suivi de l'extension ".txt"
+-s:      Cette option ajoute le temps pour faire un siège dans la liste des résultats.
 
 Note: Ce programme ne peut pas être lancé en double cliquant son icône car il ne s'agit pas d'un programme Windows
 	  proprement dit. En exécutant, le programme Armaguedon de cette manière, vous obtiendrez au mieux une fenêtre
@@ -118,7 +147,8 @@ Où les champs signifient:
 			blancs avant ou après le nom. S'il y a des caractères Unicode, ces derniers sont remplacés par des
 			points d'interrogation.
 	UTC:    est le décalage par rapport au temps universel
-	Clé:    est le code de sécurité (6 symboles). Ce champ doit-être mis à jour tous les mois.
+	Clé:    est le code de sécurité (6 symboles). Ce champ doit-être mis à jour tous les mois et elle doit être
+			demandé individuellement.
 
 V- Mise à jour rapide de vos chateaux.
 
@@ -126,6 +156,30 @@ L'option -M du programme permet de mettre à joueur la base de donnée interne du 
 d'un fichier texte dont le nom est "Nom_Du_Joueur.txt". Nom_Du_Joueur est la chaîne de caractère réprésentant
 le nom du joueur avec tous ces caractères spécaux sauf les blancs en début et à la fin du nom qui sont exclu. 
 S'il y a des caractères Unicode, ces derniers sont remplacés par des points d'interrogation.
+
+VI- Mise à jour de la base de données.
+
+La validité des résultats du programme Armageudon dépend de sa base de donnée. Le programme possède sa propre
+base de données internes qui est mise à jour à chaque version importante du programme. Cette base de données
+contient essentiellement les descriptions de notre ordre, de nos alliées et de tous les chateaux les 
+constituant. Par définition même du but ultime de ce programme, nos ennemis ne collaborent pas à cette base de
+données internes. Les informations sur les chateaux ennemis et la puissance de nos ennemis constituent une 
+information indispensable pour le programme. Lors de la livraison du code via "TortoiseGIT", vous avez accès à
+la base de données externes du programme Armageudon. "TortoiseGIT" ne permet pas seulement la livraison du code
+à jour mais aussi sa correction. Ainsi vous pouvez, mettre à jour l'information sur les joueurs et chateaux 
+ennemis. 
+Le format de définition *.txt d'un joueur correspond aux fichiers de l'option "-M". Pour les chateaux dont les 
+coordonnées sont inconnues, il faut préserver le "[|]" sinon ce fichier ne sera pas imcompris par le programme
+Armaguedon.
+
+Note importante: Sur le serveur international ("int"), les coordonnées des châteaux ne sont pas disponibles aux
+				 joueurs. NE PAS METTRE LES COORDONNÉES DES CHÂTEAUX DE NOS MEMBRES OU DES NOS ORDRES ALLIÉS.
+				 C'est une question de sécurité car l'ensemble des données sur le serveur GITHUB sont puliques
+				 et accessibles à tous. Sur les autres serveurs, cela n'a pas d'importance parce que les
+				 coordonnées des châteaux sont accessible à tous les joueurs en tout temps.
+
+
+
 
 
 
