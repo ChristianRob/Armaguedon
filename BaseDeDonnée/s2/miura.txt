@@ -1,0 +1,31 @@
+Castle 1 [ -60 | 56 ] 
+
+Castle 2 [ -60 | 55 ] 
+
+Castle 3 [ -61 | 56 ] 
+
+Castle 4 [ -61 | 55 ] 
+
+Castle 5 [ -60 | 57 ] 
+
+Castle 13 [ 35 | -61 ] 
+
+Castle 6 [ -59 | 56 ] 
+
+Castle 7 [ -62 | -1 ] 
+
+Castle 8 [ -59 | 57 ] 
+
+Castle 9 [ -59 | 55 ] 
+
+Castle 10 [ -61 | 57 ] 
+
+Castle 11 [ -59 | -4 ] 
+
+Castle 12 [ -60 | 58 ] 
+
+Castle 16280 [ -59 | 58 ] 
+
+Castle 16281 [ -61 | 58 ] 
+
+Castle 16580 [ -60 | 54 ] 

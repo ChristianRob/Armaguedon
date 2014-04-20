@@ -12,9 +12,9 @@ Castle 01 [ 54 | 6 ]
 
 cl2 [ -59 | -32 ] 
 
-Mouros Castle [ 48 | -60 ] 
-
 cl4 [ -58 | -31 ] 
+
+Mouros Castle [ 48 | -60 ] 
 
 Arsuf [ -36 | -56 ] 
 
@@ -51,3 +51,4 @@ Amon Lhaw.14 [ 58 | -5 ]
 Ered Nimrais.15 [ 58 | -3 ] 
 
 Khazad-dûm.16 [ 58 | -6 ] 
+

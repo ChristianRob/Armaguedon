@@ -1,0 +1,21 @@
+REYNADO [ 2 | 37 ] 
+
+reino [ 17 | -34 ] 
+
+ELVATOLOCA [ -48 | 28 ] 
+
+LAVATOLOCA [ -55 | 36 ] 
+
+Castle 15989 [ 1 | 37 ] 
+
+Castle 16125 [ -46 | 29 ] 
+
+Castle 16126 [ -47 | 27 ] 
+
+Castle 16127 [ -48 | 27 ] 
+
+Castle 16128 [ -46 | 27 ] 
+
+Castle 16129 [ -46 | 31 ] 
+
+Castle 16130 [ -45 | 30 ] 

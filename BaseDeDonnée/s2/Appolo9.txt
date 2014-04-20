@@ -1,0 +1,25 @@
+DANIELVILLE [ 60 | 46 ] 
+
+LOUISEVILLE [ 60 | 47 ] 
+
+PIERREVILLE [ 61 | 47 ] 
+
+SAINT-DANIEL [ 8 | 18 ] 
+
+SAINTE-LOUISE [ -62 | -2 ] 
+
+SAINT-PIERRE [ -33 | -55 ] 
+
+SAINTE-FOY [ 62 | 30 ] 
+
+SAINTE-MARIE [ 23 | -42 ] 
+
+SAINT-MICHEL [ -37 | -58 ] 
+
+SAINT-ÉMILE [ -63 | 44 ] 
+
+SHANNON [ 32 | 8 ] 
+
+WENDAKE [ 59 | 47 ] 
+
+FORESTVILLE [ 59 | 45 ] 

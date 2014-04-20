@@ -1,0 +1,49 @@
+Gallifrey [ 39 | 3 ] 
+
+Center 1 [ 39 | 4 ] 
+
+Center 2 [ 40 | 3 ] 
+
+Center 3 [ 38 | 3 ] 
+
+Center 4 [ 39 | 2 ] 
+
+Center 5 [ 40 | 2 ] 
+
+Center 6 [ 40 | 4 ] 
+
+Center 7 [ 38 | 4 ] 
+
+Center 8 [ 38 | 2 ] 
+
+Center 9 [ 39 | 1 ] 
+
+Center 10 [ 37 | 3 ] 
+
+Center 11 [ 41 | 3 ] 
+
+Center 12 [ 39 | 5 ] 
+
+Center 13 [ 40 | 5 ] 
+
+Center 14 [ 38 | 5 ] 
+
+Center 15 [ 37 | 4 ] 
+
+Center 16 [ 37 | 2 ] 
+
+Center 17 [ 38 | 1 ] 
+
+Center 18 [ 40 | 1 ] 
+
+Center 19 [ 41 | 2 ] 
+
+Center 20 [ 41 | 4 ] 
+
+Center 21 [ 37 | 1 ] 
+
+Center 22 [ 41 | 1 ] 
+
+Center 23 [ 37 | 5 ] 
+
+Center 24 [ 41 | 5 ] 

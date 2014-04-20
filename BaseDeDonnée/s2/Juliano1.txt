@@ -1,0 +1,41 @@
+Castle 15680 [ 31 | 46 ] 
+
+Castle 14896 [ 37 | -13 ] 
+
+Castle 15818 [ 31 | 45 ] 
+
+Castle 15819 [ 32 | 46 ] 
+
+Locksley II [ 39 | -60 ] 
+
+Bizantis [ 38 | -61 ] 
+
+Castle 15820 [ 31 | 47 ] 
+
+Castle 15822 [ 30 | 45 ] 
+
+Castle 15836 [ 32 | 45 ] 
+
+Castle 15837 [ 33 | 46 ] 
+
+Castle 00001 [ -32 | 13 ] 
+
+Castle 16006 [ 30 | 46 ] 
+
+Castle 16007 [ 30 | 47 ] 
+
+Castle 16071 [ 31 | 44 ] 
+
+Castle 16072 [ 33 | 45 ] 
+
+Castle 16132 [ 18 | -14 ] 
+
+Castle 16133 [ 17 | -13 ] 
+
+Castle 16287 [ 31 | 48 ] 
+
+Castle 16337 [ 30 | 48 ] 
+
+Castle 16342 [ 30 | 44 ] 
+
+Castle 16448 [ 29 | 46 ] 

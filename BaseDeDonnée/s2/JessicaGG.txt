@@ -1,6 +1,6 @@
-?GGxJessica?? [ -49 | 30 ] 
+?GGxJessica?? [ -35 | 38 ] 
 
-?ILoveMina? [ 60 | 63 ] 
+?ILoveYouMina? [ 60 | 63 ] 
 
 ??BaexSuzy?? [ -50 | 32 ] 
 
@@ -16,8 +16,6 @@
 
 ?9MusesxEunJI? [ -48 | 30 ] 
 
-?GGxSooYoung? [ 57 | 62 ] 
-
 ?ParkShinHye? [ 55 | 8 ] 
 
 ?9MusesxHyeMi? [ -49 | 31 ] 
@@ -28,7 +26,7 @@
 
 ?T-araxQri? [ -57 | -16 ] 
 
-?9MusesxHyunAh? [ 15 | 44 ] 
+?9MusesxHyunAh? [ 21 | -46 ] 
 
 ?9MusesxSeRa? [ -50 | 29 ] 
 
@@ -64,6 +62,7 @@
 
 ?T-araxAhReum? [ -53 | 28 ] 
 
-?KyungxRee? [ -56 | -10 ] 
+?KyungxRee? [ -50 | 30 ] 
 
 ?9MusesxSungAh? [ -59 | -1 ] 
+

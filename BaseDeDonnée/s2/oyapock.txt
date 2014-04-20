@@ -1,0 +1,49 @@
+Castle Abaddon 1 [ 49 | 38 ] 
+
+Castle Abaddon 2 [ 49 | 37 ] 
+
+Castle Abaddon 3 [ 50 | 38 ] 
+
+Castle Abaddon 4 [ 49 | 39 ] 
+
+Castle Abaddon 5 [ 48 | 38 ] 
+
+Castle Abaddon 6 [ 47 | 38 ] 
+
+Castle Abaddon 7 [ 51 | 38 ] 
+
+Castle Abaddon 8 [ 49 | 40 ] 
+
+Castle 14714 [ 59 | 46 ] 
+
+Castle 14716 [ 61 | 64 ] 
+
+Castle 14723 [ 8 | 19 ] 
+
+Castle 14745 [ -61 | -1 ] 
+
+Castle 14865 [ 15 | 38 ] 
+
+Castle 14866 [ 36 | 5 ] 
+
+Castle 14881 [ -64 | 40 ] 
+
+Castle 14882 [ -31 | -55 ] 
+
+Castle 14883 [ -9 | -56 ] 
+
+Castle 15121 [ 61 | 46 ] 
+
+Castle 15179 [ -63 | 41 ] 
+
+Castle 15180 [ -58 | -1 ] 
+
+Castle 15430 [ -60 | -4 ] 
+
+Castle 15431 [ -60 | 0 ] 
+
+Castle 15456 [ -64 | 44 ] 
+
+Castle 15834 [ 9 | 19 ] 
+
+Castle 15881 [ 23 | 44 ] 

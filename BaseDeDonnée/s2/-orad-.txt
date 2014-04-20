@@ -1,8 +1,14 @@
-salsipuedes [ -50 | 30 ] 
+salsipuedes [ -60 | 26 ] 
+
+rotsak [ 20 | 30 ] 
 
 orad I [ -52 | 31 ] 
 
-Castle 15688 [ -51 | 32 ] 
+orad II [ 37 | -60 ] 
+
+orad III [ -35 | -64 ] 
+
+orad IV [ -51 | 32 ] 
 
 Orad 01 [ 35 | 6 ] 
 
@@ -10,4 +16,4 @@ Orad 02 [ -4 | 19 ]
 
 Jessi [ 36 | 8 ] 
 
-Castle 16020 [ -52 | 32 ] 
+orad V [ -52 | 32 ] 
