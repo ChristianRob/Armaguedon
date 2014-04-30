@@ -1,4 +1,4 @@
-Programme Armaguedon Version 0.7 (Beta)
+Programme Armaguedon Version 1.0
 
 (c) Copyright Pécan Inc 2014
 
@@ -105,7 +105,8 @@ le programme Armaguedon est lancé dans une fenêtre "invite de commande" en tapan
 liste de ses arguments. Il faut mentionné le chemin du programme ou de se déplacer dans le répertoire  qui contient 
 le programme. La ligne de commande se présente comme suit:
 
-Armaguedon [-M Fichier_de_modification] [-s] Heure_de_l_attaque CibleX CibleY [Heure_de_l_attaque_1 CibleX_1 CibleY_1] [...]
+Armaguedon [-i Nom_du_joueur] [-I Nom_de_l_ordre] [-M Fichier_de_modification] [-s] [-U Numéro_de_l_univers]
+		   Heure_de_l_attaque CibleX CibleY [Heure_de_l_attaque_1 CibleX_1 CibleY_1] [...]
 
 Où:
 
@@ -115,6 +116,9 @@ CibleX : Coordonnée de la cible en X.
 CibleY : Coordonnée de la cible en X.
 [Heure_de_l_attaque_N CibleX_N CibleY_N] : Triplet {heure désiré, cible en X, cible en Y} pour N autres cibles...
 
+-i:		 Imprime les châteaux d'un joueur avec leurs coordonnées, s'il y a lieu. Note: Ne fonctionne pas pour les
+		 membres de notre ordre ou les joueurs des ordres alliés.
+-I:		 Imprime le nom des joueurs appartenant à un ordre.
 -M:      Signifie que l'argument qui suit est votre nom de joueur. Votre profil sera mis à jour dans la base de
          données. L'argument "Fichier_de_modification" est le nom d'un fichier texte (*.txt) qui contient les noms
 		 de vos chateaux et leurs coordonnées. Il est spécifié sans extension. La mise à jour manuelle de la base de
@@ -124,6 +128,9 @@ CibleY : Coordonnée de la cible en X.
 		 château et de les écrire dans un fichier. Le nom du fichier est obligatoirement votre nom de joueur (en
 		 respectant les majuscules s'il y a lieu) suivi de l'extension ".txt"
 -s:      Cette option ajoute le temps pour faire un siège dans la liste des résultats.
+-U:		 Permet de sélectionner le monde auquel on désire des résultats. Cette commande s'adresse uniquement aux 
+		 joueurs ayant des comptes sur plusieurs serveurs. L'argument qui suit l'option est le numéro du monde que
+		 l'on désire. Voir la définition du fichier d'initialisation à la section IV.
 
 Note: Ce programme ne peut pas être lancé en double cliquant son icône car il ne s'agit pas d'un programme Windows
 	  proprement dit. En exécutant, le programme Armaguedon de cette manière, vous obtiendrez au mieux une fenêtre
@@ -138,17 +145,28 @@ informations (lignes) suivantes:
 	Ordre=
 	Joueur=
 	UTC=
-	Clé=  
+	Clé=
+	BaseDeDonnées=  
 
 Où les champs signifient:
-	Monde:  est le nom du serveur. Cela correspond aux premières du site internet du serveur.
- 	Ordre:  est les initiales de l'ordre en majucules
-	Joueur: est le nom du joueur en respectant les majuscules et caractères spéciaux mais en ommetant tous les
-			blancs avant ou après le nom. S'il y a des caractères Unicode, ces derniers sont remplacés par des
-			points d'interrogation.
-	UTC:    est le décalage par rapport au temps universel
-	Clé:    est le code de sécurité (6 symboles). Ce champ doit-être mis à jour tous les mois et elle doit être
-			demandé individuellement.
+	Monde:		  est le nom du serveur. Cela correspond aux premières du site internet du serveur. Pour les 
+				  joueurs sur plusieurs serveurs, on peut mettre les autres serveurs à la suite séparée par des
+				  virgules. Le premier serveur est celui par défaut (Index 0 pour l'option "-U"). La sélection 
+				  du serveur suivant peut se faire par l'intermédiaire de l'option "-U" et de son argument. Par 
+				  exemple, la valeur 1 indiquera la première valeur après celle par défaut. 
+ 	Ordre:		  est les initiales de l'ordre en majucules auquel on appartient. Pour les joueurs sur 
+				  plusieurs serveurs, on peut mettre notre ordre sur le autres serveurs séparées par des 
+				  virgules. Le premier est l'ordre par défaut (Index 0 pour l'option "-U"). Les ordres 
+				  suivants correspondent à nos ordres sur les différents serveurs.
+	Joueur:		  est le nom du joueur en respectant les majuscules et caractères spéciaux mais en ommetant
+				  tous les blancs avant ou après le nom. S'il y a des caractères Unicode, ces derniers sont
+				  remplacés par des points d'interrogation.
+	UTC:		  est le décalage par rapport au temps universel.
+	Clé:		  est le code de sécurité (6 symboles). Ce champ doit-être mis à jour tous les mois et elle
+				  doit être demandé individuellement.
+	BaseDeDonnée: indique le chemin où l'on retroruve le répertoire "BaseDeDonnée/". Par défaut, le programme
+				  cherche ce répertoire où le programme est exécuté. Si l'on demeure dans cette configuration,
+				  il n'est pas nécessaire d'utiliser ce champs dans le fichier d'initialisation.
 
 V- Mise à jour rapide de vos chateaux.
 
@@ -161,22 +179,75 @@ VI- Mise à jour de la base de données.
 
 La validité des résultats du programme Armageudon dépend de sa base de donnée. Le programme possède sa propre
 base de données internes qui est mise à jour à chaque version importante du programme. Cette base de données
-contient essentiellement les descriptions de notre ordre, de nos alliées et de tous les chateaux les 
+contient essentiellement les descriptions de notre ordre, de nos alliées et de tous les chateaux les 3
 constituant. Par définition même du but ultime de ce programme, nos ennemis ne collaborent pas à cette base de
 données internes. Les informations sur les chateaux ennemis et la puissance de nos ennemis constituent une 
-information indispensable pour le programme. Lors de la livraison du code via "TortoiseGIT", vous avez accès à
-la base de données externes du programme Armageudon. "TortoiseGIT" ne permet pas seulement la livraison du code
-à jour mais aussi sa correction. Ainsi vous pouvez, mettre à jour l'information sur les joueurs et chateaux 
-ennemis. 
-Le format de définition *.txt d'un joueur correspond aux fichiers de l'option "-M". Pour les chateaux dont les 
-coordonnées sont inconnues, il faut préserver le "[|]" sinon ce fichier ne sera pas imcompris par le programme
-Armaguedon.
+information indispensable pour le programme. Tous le monde, même nos ennemis, ont accès à la base de données 
+externes du programme Armageudon. C'est de cette manière que fonction GITHUB et "TortoiseGIT". Les accès en 
+lecture sont disponibles à tous. 
+
+i) Écriture dans la base de données locales.
+
+L'écriture et la mise à jour est aussi disponible. C'est une des beautés de l'environnement GIT. Si vous
+mettez à jour, ajoutez des nouveaux fichiers, vous vous aperceverez que vous êtes aussi capable de modifier
+ces données et des livrer (Commande "Git Livrer...") et que cela vous donera une nouvelle verson dans la base
+de données GIT.  Vous êtes donc capable de faire évoluer la base de données externe d'Armaguedon sur votre 
+ordinateur et de bénificier de toutes les fonctionnalités d'Un système de suivi de version (C.est à dire, la 
+possibilité de revenir en arrière sur des versions antérieurs et de partager et fusionner l'ensemble des 
+autres modifications qui ont été faites par d'autres contributeurs. GIT devient alors un outil très puissant
+pour maintenir la base de données d'Armaguedon à jour.
+
+ii) Partage des mises à jour de la base données.
+
+Jusqu'à maintenant, toutes les commandes GIT n'affectent que votre GIT local. Étant donné que GIT est un outil
+totalement décentralisé, toutes vos modifications sont comme si vous étiez propriétaire de l'ensemble du
+travail et des modifications qui ont été faites dans GIT. Cela est possible parce que quand vous avez fait
+votre premier accès à GITHUB, l'entièreté de la base de données GIT et de toutes les modifications déjà 
+inscrites ont été copié sur votre disque. Avec GIT, les "backup" sont inutiles puisque n'est porte quel copie 
+peut devenir le serveur principale. L'autre avantage est que nous n'avons pas besoin d'accéder au réseau pour
+travailler avec GIT.
+
+Tout cela est bien beau, mais il faut de temps à autre partager nos modifications avec celles des autres. Il
+faut donc utiliser le réseau. Cette synchronisation peut se faire avec les commandes "GIT tirer..." (Pour se
+procurer les mises à jours de l'autre base de données GIT) et "GIT pousser..." (Pour amener nos modifications
+de l'autre base de données GIT). Techniquement, cela peut être réaliser à partir de n'importe quelle base de
+données GIT mais l'intérêt est d'avoir une base de données GIT communes à tous. Dans notre cas, c'est GITHUB
+qui assurera cette unification. Il faut alors se plier aux exigences de ce serveur en particulier.
+
+iii) Transaction avec GITHUB
+
+Pour l'accès en lecture, il n'y a pas de restriction d'aucune sorte, on peut s'approprié une copie de la base
+de données GIT (Ce que vous avez déjà réalisé si vous lisez ce texte!) et utiliser la commande "GIT tirer..."
+pour obtenir les dernières modifications du logiciel.
+
+Pour la livraison de modifications, il faut s'assurer de l'intégrité des données. Dans notre cas, un de nos
+ennemis dans ce jeu pourrait, s'il connait le projet GITHUB, s'amuser à mettre n'importe quelle information
+erronnée dans notre base de données. Il pourrait même essayer de la détruire (Ce serait de vains efforts
+puisque GIT n'efface jamis l'information et que même s'il réussirait à faire cela, n'importe quel des autres
+copies du projet sur nos ordinateurs pourrient reconstituer la base de données GIT)! Pour éviter ces
+désagréments GITHUB propose plusieurs techniques de sécurité. Nous avons chosi un des plus simple qui
+consiste à ne donner accès à des contributeurs bien identifiés. L'information exigée est votre nom et votre
+émail. Donc, si vous vouler livrer vos modifications (avec "GIT pousser"), veuillez nous faire parvenir les
+informations pour que l'on puisse vous inscrire dans la liste des contributeurs.
+
+iv) Format des fichiers (Description des châteaux d'un joueur).
+ 
+Le format de définition *.txt d'un joueur correspond aux fichiers de l'option "-M" (Voir la descrition de 
+cette option à la section III).  Pour les chateaux dont les coordonnées sont inconnues, il faut préserver le
+"[|]" sinon ce fichier sera incompris par le programme Armaguedon.
 
 Note importante: Sur le serveur international ("int"), les coordonnées des châteaux ne sont pas disponibles aux
 				 joueurs. NE PAS METTRE LES COORDONNÉES DES CHÂTEAUX DE NOS MEMBRES OU DES NOS ORDRES ALLIÉS.
 				 C'est une question de sécurité car l'ensemble des données sur le serveur GITHUB sont puliques
 				 et accessibles à tous. Sur les autres serveurs, cela n'a pas d'importance parce que les
-				 coordonnées des châteaux sont accessible à tous les joueurs en tout temps.
+				 coordonnées des châteaux sont accessibles à tous les joueurs en tout temps.
+
+Les fichiers de description d'un ordre correspond à un "copie/coller" des membres d'un ordre tel que vue par
+le chef de l'ordre ou ceux qui ont le privilège d'accepter ou de refuser un membre. Donc, le "copie/coller" 
+n'est pas accssible aux membres réguliers d'un ordre. Pour la définition des ordres ennemis, l'accès au menu
+pour ces informations, est impossible. Il a un fichier similaire qui peut-être créer. Il est disponible dans
+la base de données du programme Armaguedon. Ne mettez pas à jour ce fichiers sans le consentement du chef de
+l'ordre car la définition des ordres ennemis ne correspond pas nécessairement à la définition du jeu.
 
 
 

@@ -20,3 +20,6 @@
 /BaseDeDonnée/int/Urmacor.txt
 /BaseDeDonnée/int/Vipere84.txt
 /MED
+/BaseDeDonnée/*.inc
+/BaseDeDonnée/int/*.inc
+*.inc
