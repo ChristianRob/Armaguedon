@@ -1,51 +1,27 @@
-Terre XXX 
-
-Terre XXX 2 
-
-Terre XXX 3 
-
-Terre XXX 4 
-
-Terre XXX 5 
-
-Terre XXX 6 
-
-Terre XXX 7 
-
-Terre XXX 8 
-
-Terre XXX 9 
-
-Terre XXX 10 
-
-Terre XXX 11 
-
-Terre XXX 12 
-
-Terre XXX 13 
-
-Terre XXX 14 
-
-Terre XXX 15 
-
-Terre XXX 16 
-
-Terre XXX 17 
-
-Terre XXX 18 
-
-Terre XXX 19 
-
-Terre XXX 20 
-
-Terre XXX 21 
-
-Terre XXX 22 
-
-Terre XXX 23 
-
-Terre XXX 24 
-
-Terre XXX 25 
+Terre XXX [ -85 | 9 ]
+Terre XXX 2 [ -86 | 9 ]
+Terre XXX 3 [ -85 | 10 ]
+Terre XXX 4 [ -85 | 8 ]
+Terre XXX 5 [ -84 | 9 ]
+Terre XXX 6 [ -86 | 8 ]
+Terre XXX 7 [ -86 | 10 ]
+Terre XXX 8 [ -84 | 10 ]
+Terre XXX 9 [ -84 | 8 ]
+Terre XXX 10 [ -86 | 7 ]
+Terre XXX 11 [ -85 | 11 ]
+Terre XXX 12 [ -87 | 8 ]
+Terre XXX 13 [ -87 | 9 ]
+Terre XXX 14 [ -84 | 11 ]
+Terre XXX 15 [ -87 | 10 ]
+Terre XXX 16 [ -86 | 11 ]
+Terre XXX 17 [ -87 | 11 ]
+Terre XXX 18 [ -83 | 10 ]
+Terre XXX 19 [ -83 | 9 ]
+Terre XXX 20 [ -83 | 8 ]
+Terre XXX 21 [ -84 | 7 ]
+Terre XXX 22 [ -83 | 7 ]
+Terre XXX 23 [ -83 | 11 ]
+Terre XXX 24 [ -82 | 9 ]
+Terre XXX 25 [ -85 | 12 ]
 
 Terre XXX 26 

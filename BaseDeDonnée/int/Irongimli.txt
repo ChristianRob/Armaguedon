@@ -1,0 +1,4 @@
+ gimlisland [ -80 | 10 ]
+ Castle 59551 [ -79 | 10 ]
+ Castle 59598 [ -79 | 9 ]
+ Castle 59614 [ -80 | 9 ]

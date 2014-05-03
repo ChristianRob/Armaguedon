@@ -1,51 +1,25 @@
-Calypso 
-
-Parure 
-
-rien 
-
-ne sert 
-
-de courir 
-
-il faut 
-
-partir 
-
-a point 
-
-Sans 
-
-un bon 
-
-domaine 
-
-peu 
-
-pas 
-
-faire 
-
-mieux 
-
-Patience 
-
-est 
-
-mère 
-
-de sûreté 
-
-MDR 
-
-LOL 
-
-Premier 
-
-Contrat 
-
-rempli 
-
-avec 
-
-succés
+ Calipso [ -77 | -1 ]
+ rien [ -77 | 0 ]
+ ne sert [ -76 | -1 ]
+ de courir [ -78 | -1 ]
+ il faut [ -77 | -2 ]
+ partir [ -78 | -2 ]
+ a point [ -76 | 0 ]
+ Sans [ -78 | 0 ]
+ un bon [ -76 | -2 ]
+ domaine [ -79 | 0 ]
+ peu [ -79 | -1 ]
+ pas [ -77 | 1 ]
+ faire [ -75 | -1 ]
+ mieux [ -77 | -3 ]
+ Patience [ -79 | 1 ]
+ est [ -79 | -3 ]
+ mère [ -75 | 1 ]
+ de sûreté [ -75 | -3 ]
+ MDR [ -79 | -2 ]
+ LOL [ -75 | 0 ]
+ Premier [ -75 | -2 ]
+ Contrat [ -76 | -3 ]
+ rempli [ -78 | -3 ]
+ avec [ -76 | 1 ]
+ succés [ -78 | 1 ]

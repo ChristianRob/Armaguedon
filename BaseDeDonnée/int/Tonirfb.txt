@@ -1,0 +1,8 @@
+ SPQR I [ 104 | -9 ]
+ SPQR II [ -74 | 6 ]
+ SPQR III [ -75 | 5 ]
+ SPQR IV [ -73 | 7 ]
+ SPQR V [ -73 | 9 ]
+ SPQR VI [ -74 | 5 ]
+ Castle 59236 [ -75 | 6 ]
+ Castle 59237 [ -75 | 4 ]
