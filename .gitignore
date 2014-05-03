@@ -23,3 +23,6 @@
 /BaseDeDonnée/*.inc
 /BaseDeDonnée/int/*.inc
 *.inc
+/BaseDeDonnée/int/julianlore.txt
+/BaseDeDonnée/int/phebus.txt
+/BaseDeDonnée/int/von_Balk.txt

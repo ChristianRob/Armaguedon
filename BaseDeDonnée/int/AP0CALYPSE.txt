@@ -1,0 +1,65 @@
+KABOUL [ -1 | -60 ] 
+
+TRABZON [ 9 | 83 ] 
+
+BAGDADE [ 0 | -59 ] 
+
+AL QASIM [ -77 | -56 ] 
+
+BASRA [ -3 | -60 ] 
+
+Castle-5 [ 39 | 79 ] 
+
+IZMIR [ -3 | -61 ] 
+
+AL MAFJAR [ -76 | -55 ] 
+
+azer6 [ -77 | -58 ] 
+
+FALLOUJAH [ -1 | -61 ] 
+
+ISTANBOUL [ 104 | -64 ] 
+
+KANDAHAR [ -2 | -61 ] 
+
+Sian Kaan [ 77 | 46 ] 
+
+azer9 [ -78 | -56 ] 
+
+KERBELA [ -1 | -62 ] 
+
+azer10 [ -77 | -55 ] 
+
+CHAHAB [ -2 | -62 ] 
+
+NADJAF [ -63 | -67 ] 
+
+RAMADI [ -3 | -62 ] 
+
+QADISIYYA [ -2 | -63 ] 
+
+NASSIRIYA [ -1 | -63 ] 
+
+BASSORAH [ -4 | -61 ] 
+
+TEHERAN [ 0 | -63 ] 
+
+GHODS [ 1 | -63 ] 
+
+KHARTOUM [ -4 | -60 ] 
+
+RAMALLAH [ -4 | -63 ] 
+
+GAZA [ -17 | 53 ] 
+
+NAPLOUSE [ -3 | -58 ] 
+
+TORA BORA [ -4 | -58 ] 
+
+RAFAH [ -4 | -59 ] 
+
+OMDOURMAN [ -1 | -64 ] 
+
+DARFOUR [ 0 | -64 ] 
+
+ANKARA [ 14 | 83 ] 
