@@ -1,0 +1,69 @@
+ladius [ -28 | 0 ] 
+
+ladius1 [ 54 | -30 ] 
+
+ladius2 [ 39 | 4 ] 
+
+ladius3 [ 40 | 3 ] 
+
+ladius4 [ 38 | 3 ] 
+
+ladius5c [ 39 | 2 ] 
+
+ladius6 [ 39 | 3 ] 
+
+ladius7c [ -62 | -50 ] 
+
+ladius8 [ 38 | 4 ] 
+
+ladius9 [ 40 | 2 ] 
+
+meta [ -59 | -3 ] 
+
+meta1 [ -14 | 6 ] 
+
+meta2c [ -64 | 43 ] 
+
+meta3 [ -56 | -32 ] 
+
+meta4 [ -56 | -31 ] 
+
+meta5 [ -43 | -22 ] 
+
+meta6 [ -62 | -3 ] 
+
+meta7c [ -58 | 0 ] 
+
+meta8 [ -57 | -3 ] 
+
+meta9 [ 39 | 1 ] 
+
+oyapock [ -60 | -4 ] 
+
+ram [ 38 | 1 ] 
+
+ram1 [ 40 | 1 ] 
+
+ram2 [ 54 | -29 ] 
+
+ram3 [ 60 | 62 ] 
+
+ram4 [ 53 | -30 ] 
+
+ram5 [ 38 | 2 ] 
+
+ram6 [ 41 | 1 ] 
+
+ram8 [ 36 | -14 ] 
+
+ram9 [ 27 | 4 ] 
+
+carcaman [ 27 | 2 ] 
+
+carcaman1 [ 54 | -31 ] 
+
+carcaman2 [ 58 | 62 ] 
+
+carcaman3 [ 41 | 3 ] 
+
+carcaman5 [ 40 | 4 
